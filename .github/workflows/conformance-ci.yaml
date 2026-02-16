@@ -25,6 +25,6 @@ jobs:
         with:
           packages: local::.
 
-      - uses: Bisaloo/zarr-conformance-tests@junit
+      - uses: Bisaloo/zarr-conformance-tests@main
         with:
           zarr-cli: Rscript inst/scripts/Rarr-cli.R
